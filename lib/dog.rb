@@ -11,6 +11,8 @@ class Dog
   end
   
   def breed
+    @breed
+  else
     puts "Mutt"
   end
 end

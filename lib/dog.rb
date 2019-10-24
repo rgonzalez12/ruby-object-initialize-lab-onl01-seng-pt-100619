@@ -8,6 +8,10 @@ class Dog
    @dog
   end
   
+  def breed
+    @breed
+  end
+  
   def initialize(breed)
     @breed = breed
   end
@@ -16,7 +20,5 @@ class Dog
     @breed = breed
   end
  
-  def breed
-    @breed
-  end
+  
 end

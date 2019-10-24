@@ -15,4 +15,5 @@ class Dog
   else
     puts "Mutt"
   end
+  end
 end

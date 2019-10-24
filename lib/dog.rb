@@ -8,6 +8,10 @@ class Dog
     @breed = breed
   end
   
+  def breed=(breed)
+    @breed = breed
+  end
+  
   def dog
    @dog
   end
@@ -15,12 +19,4 @@ class Dog
   def breed
     @breed
   end
-  
- 
- 
-  def breed=(breed)
-    @breed = breed
-  end
- 
-  
 end
